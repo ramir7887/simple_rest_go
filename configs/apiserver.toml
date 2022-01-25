@@ -1,0 +1,5 @@
+bind_addr = ":8080"
+log_level = "debug"
+database_url = "host=89.223.65.66 port=1234 dbname=onboarding sslmode=disable user=onboarding password=secret_pass"
+session_key = "sldfgjoj456j45o3ij2po3j4vo5jojobji43o5ijo234j5bo23j4"
+migrate_url = '"migrate -path migrations -database "postgres://onboarding:secret_pass@89.223.65.66:1234/onboarding" up"'
